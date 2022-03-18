@@ -33,17 +33,25 @@ time: 12
 ////////// Variableler \\\\\\\\\\
 bot.variables({
 prefix:".",
-çarpı: "<:error:949646528128098314>",
-tik: "<:success:949647674431381524> ",
+cross: "<:error:949646528128098314>",
+tick: "<:success:949647674431381524> ",
 admin:"> <@$authorID>  Üzgünüm **Admin** Yetkin Yok",
 sil: "0",
 hex: "#BDAAF9",
 log: "951522365425217646",
 staff: "951522339709923418",
-para: "0",
-günlük: "200",
-bankap: "0"
+coin: "0",
+bcoin: "0",
+bsınır: "2500"
 })
+
+
+const express = require('express');
+const app = express()
+app.get("/",(req,res) =>{
+  res.send("Aktifim Knks")
+})
+app.listen(8080)
 
 //////////// Komutlar \\\\\\\\\\
 bot.guildJoinCommand({
