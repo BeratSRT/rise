@@ -40,9 +40,7 @@ sil: "0",
 hex: "#BDAAF9",
 log: "951522365425217646",
 staff: "951522339709923418",
-coin: "0",
-bcoin: "0",
-bsınır: "2500"
+lengel: "kapalı"
 })
 
 
@@ -81,4 +79,6 @@ $description[1;
 `
 })
 bot.onGuildLeave()  
+
+
 
