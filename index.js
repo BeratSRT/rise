@@ -141,4 +141,3 @@ bot.command({
     $thumbnail[1;$userAvatar[$authorID]]
   `
   })  
-
